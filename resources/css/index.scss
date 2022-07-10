@@ -208,28 +208,29 @@ section.hero {
     }
 }
 
-.Footer-ListWrapper{
+footer {
     border-top: 1px solid #C1CDD7;
-    display: flex;
-    margin: 0;
-}
 
-.footer {
-    position: absolute;
-    margin-top: 2.5em;
-    margin-left: 8em;
-
-
-    a {
-        font-size: 1.2rem;
-        padding: 0.5em 1.5em;
-        color: black;
-        width: 100%;
-        text-align: center;
-        
-        &:hover {
-            background: none;
-            text-decoration: underline;
+    .Footer-ListWrapper{
+        display: flex;
+        margin: 0;
+    
+        .footer {
+            margin-top: 2.5em;
+            margin-left: 8em;
+    
+            a {
+                font-size: 1.2rem;
+                padding: 0.5em 1.5em;
+                color: black;
+                width: 100%;
+                text-align: center;
+                
+                &:hover {
+                    background: none;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

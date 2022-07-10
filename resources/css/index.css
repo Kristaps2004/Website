@@ -207,21 +207,23 @@ section.hero {
   }
 }
 
-.Footer-ListWrapper {
+footer {
   border-top: 1px solid #C1CDD7;
+}
+
+footer .Footer-ListWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
 
-.footer {
-  position: absolute;
+footer .Footer-ListWrapper .footer {
   margin-top: 2.5em;
   margin-left: 8em;
 }
 
-.footer a {
+footer .Footer-ListWrapper .footer a {
   font-size: 1.2rem;
   padding: 0.5em 1.5em;
   color: black;
@@ -229,7 +231,7 @@ section.hero {
   text-align: center;
 }
 
-.footer a:hover {
+footer .Footer-ListWrapper .footer a:hover {
   background: none;
   text-decoration: underline;
 }
