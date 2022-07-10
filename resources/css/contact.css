@@ -8,20 +8,6 @@ a {
   font-size: 1.3rem;
 }
 
-.hero-img {
-  position: absolute;
-  top: 0;
-  left: unset;
-  right: 0;
-  background: url(../img/mainTrain.jpg);
-  background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
-  width: 50%;
-  height: 100vh;
-  z-index: -1;
-}
-
 .logo {
   font-size: 2rem;
   color: #087c08;
@@ -92,36 +78,24 @@ header svg {
 
 h1 {
   font-size: 4rem;
-  margin-top: 2em;
+  margin-top: 1em;
   line-height: 3.3rem;
   color: black;
 }
 
-.subhead {
-  font-size: 1.4rem;
-}
-
-section.hero {
-  color: black;
-  height: 90vh;
-  width: 50%;
-  margin-right: 20rem;
-  margin-bottom: em;
-}
-
-.more-info img {
+.info img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 15em;
+  height: 10em;
 }
 
-.more-info .title {
+.info .title {
   font-weight: bold;
   font-size: 1.25rem;
 }
 
-.more-info .desc {
+.info .desc {
   line-height: 1.25rem;
 }
 
@@ -160,7 +134,7 @@ section.hero {
     margin: 0;
   }
   nav ul a {
-    color: white;
+    color: black;
     padding: 0.5em 1.5em;
     font-size: 1.2rem;
   }
@@ -180,48 +154,37 @@ section.hero {
     display: grid;
     -ms-grid-columns: (auto)[2];
         grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin-bottom: 8em;
+    gap: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
   }
   .feature img {
-    width: 45em;
-    height: 22em;
+    width: 30em;
+    height: 15em;
   }
   .feature .content {
     text-align: left;
     width: 45em;
   }
-  .feature.left {
-        grid-template-areas: "left right";
-  }
-  .feature.left img {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: left;
-  }
-  .feature.left .content {
-    text-align: left;
-    width: 45em;
-    -ms-grid-column-align: left;
-        justify-self: left;
-  }
 }
 
-.Footer-ListWrapper {
+footer {
   border-top: 1px solid #C1CDD7;
+}
+
+footer .Footer-ListWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
 
-.footer {
-  position: absolute;
+footer .Footer-ListWrapper .footer {
   margin-top: 2.5em;
   margin-left: 8em;
 }
 
-.footer a {
+footer .Footer-ListWrapper .footer a {
   font-size: 1.2rem;
   padding: 0.5em 1.5em;
   color: black;
@@ -229,8 +192,8 @@ section.hero {
   text-align: center;
 }
 
-.footer a:hover {
+footer .Footer-ListWrapper .footer a:hover {
   background: none;
   text-decoration: underline;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=contact.css.map */
